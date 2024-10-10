@@ -1,6 +1,6 @@
 
 def calculate_electricity_bill(customer_id, customer_name, units_consumed):
-    # Define unit charges
+
     if units_consumed <= 199:
         charge_per_unit = 1.20
     elif 200 <= units_consumed < 400:
